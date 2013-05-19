@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tetris</title>
+</head>
+<body>
+	<div style="width:300px; height:400px; border:1px solid black; z-index:0;">
+	
+		<TMPL_IF name="block1">
+			<div style="width:50px; height:50px; border:1px solid black; background:yellow; margin-top:<TMPL_VAR name='margin-top'>"></div>
+		</TMPL_IF>
+	</div>
+
+	<form action="index.cgi" method="POST">
+	<input type="button" name="left" value="left">	
+	<input type="button" name="rotate" value="rotate">	
+	<input type="button" name="right" value="right">	
+
+
+</body>
+</html>
